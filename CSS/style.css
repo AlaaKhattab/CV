@@ -1,0 +1,149 @@
+/*********************************************************************************************/
+/*********************************************************************************************/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+}
+
+#content{
+    height: 500px;
+    background-color: white;
+}
+
+/*********************************************************************************************/
+/*********************************** leftSide ************************************************/
+/*********************************************************************************************/
+
+#content #leftSide{
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+
+
+/*******************************************************************/
+/******************* profilePicture ********************************/
+
+#content #leftSide #profilePicture{
+    height: 300px;
+    padding-top: 20px;
+    background-color: #385964;
+}
+
+#content #leftSide #profilePicture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#content #leftSide #profilePicture h1{
+    font-family: cursive;
+    color: white;
+}
+#content #leftSide #profilePicture p{
+    font-family: cursive;
+    color: #00aec3;
+}
+
+/*******************************************************************/
+/******************* personalInfo **********************************/
+
+#content #leftSide #personalInfo{
+    height: 160px;
+    padding-top: 20px;
+    background-color: #00aec3;
+}
+
+#content #leftSide #personalInfo h1{
+    color: white;
+    background-color: #385964;
+    padding: 5px;
+}
+
+#content #leftSide #personalInfo p{
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+/*******************************************************************/
+/******************** contacts *************************************/
+
+#content #leftSide #contacts{
+    height: 500px;
+    padding-top: 20px;
+    background-color: #00aec3;
+}
+
+#content #leftSide #contacts h1{
+    color: white;
+    background-color: #385964;
+    padding: 5px;
+}
+
+#content #leftSide #contacts .contactBlock{
+    text-align: left;
+    margin-top: 10px;
+    height: 50px;
+}
+
+#content #leftSide #contacts .contactBlock a{
+    color: black;
+    text-decoration: none;
+    float: left;
+    margin-top: 10px;
+    color: white;
+}
+
+#content #leftSide #contacts p{
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    color: white;
+}
+
+#content #leftSide #contacts img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    float: left;
+}
+
+/*********************************************************************************************/
+/*********************************************************************************************/
+/*********************************************************************************************/
+
+
+#content #rightSide{
+    width: 60%;
+    float: left;
+    height: 500px;
+    border: 1px solid red;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
