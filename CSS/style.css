@@ -56,7 +56,7 @@ body{
 
 #content #leftSide #personalInfo{
     height: 160px;
-    padding-top: 20px;
+    padding-top: 50px;
     background-color: #00aec3;
 }
 
@@ -76,8 +76,8 @@ body{
 /******************** contacts *************************************/
 
 #content #leftSide #contacts{
-    height: 500px;
-    padding-top: 20px;
+    height: 510px;
+    padding-top: 50px;
     background-color: #00aec3;
 }
 
@@ -125,10 +125,117 @@ body{
 #content #rightSide{
     width: 60%;
     float: left;
-    height: 500px;
-    border: 1px solid red;
-    float: left;
+    padding-top: 30px;
 }
+
+
+#content #rightSide .rightSideBlock{
+    border-bottom: 2px solid #385964;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#content #rightSide .rightSideBlock h1{
+    text-transform: uppercase;
+    color: #00aec3;
+    margin-bottom: 10px;
+}
+
+
+/*******************************************************************/
+/************************** Profile ********************************/
+#content #rightSide #profile{
+    height: 120px;
+}
+
+#content #rightSide #profile p{}
+
+/*******************************************************************/
+/************************* Education *******************************/
+#content #rightSide #education{
+    height: 220px;
+}
+
+#content #rightSide #education .educationBlock{
+    height: 60px;
+}
+
+#content #rightSide #education h2{
+    float: left;
+    width: 200px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #385964;
+}
+
+#content #rightSide #education p{
+    float: left;
+    margin-left: 50px;
+}
+
+
+/*******************************************************************/
+/*************************** Skills ********************************/
+#content #rightSide #skills{}
+
+#content #rightSide #skills #mainSkills{}
+
+#content #rightSide #skills #mainSkills img{
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+#content #rightSide #skills #otherSkills{
+    margin-top: 10px;
+}
+
+#content #rightSide #skills #otherSkills h3{
+    margin-bottom: 10px;
+}
+
+#content #rightSide #skills #otherSkills .otherSkillsBlock{
+    height: 30px;
+    margin-left: 20px;
+}
+
+#content #rightSide #skills #otherSkills .otherSkillsBlock h4{
+    float: left;
+    width: 250px;
+    font-weight: 600;
+}
+
+#content #rightSide #skills #otherSkills .otherSkillsBlock p{
+    float: left;
+    width: 400px;
+    
+}
+
+
+/*******************************************************************/
+/*************************** Courses *******************************/
+#content #rightSide #courses{}
+
+#content #rightSide #courses .courseBlock{
+    height: 30px;
+}
+
+#content #rightSide #courses .courseBlock h3{
+    float: left;
+    width: 100px;
+}
+
+#content #rightSide #courses .courseBlock p{
+    float: left;
+    width: 600px;
+}
+
+
+
+
+
+
 
 
 
